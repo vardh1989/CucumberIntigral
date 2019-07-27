@@ -1,0 +1,274 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 33214505655,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Jawwytv site \"http://www.jawwy.tv\" opens successfully",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.jawwy.tv",
+                  "offset": 14
+                }
+              ],
+              "location": "SampleTestingStepDefs.jawwytv_site_something_opens_successfully(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7700695251,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User changes language in welcome screen",
+            "match": {
+              "location": "SampleTestingStepDefs.user_changes_language_in_welcome_screen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8469432889,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on seven days free subscribe now button",
+            "match": {
+              "location": "SampleTestingStepDefs.user_clicks_on_seven_days_free_subscribe_now_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1809619707,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validate back button on payment screen on entering username and password",
+        "description": "",
+        "id": "verify-sample-tests-for-home-and-login-screen;validate-back-button-on-payment-screen-on-entering-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 167615901,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 146050418,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters username as \"testuser@gm.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testuser@gm.com",
+                  "offset": 25
+                }
+              ],
+              "location": "SampleTestingStepDefs.user_enters_username_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 86356883,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters password as \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345678",
+                  "offset": 25
+                }
+              ],
+              "location": "SampleTestingStepDefs.user_enters_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5063875204,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on continue button",
+            "match": {
+              "location": "SampleTestingStepDefs.user_clicks_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5040449008,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should see back button displayed on payment screen",
+            "match": {
+              "location": "SampleTestingStepDefs.user_should_see_back_button_displayed_on_payment_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@toptest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7349427361,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Jawwytv site \"http://www.jawwy.tv\" opens successfully",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.jawwy.tv",
+                  "offset": 14
+                }
+              ],
+              "location": "SampleTestingStepDefs.jawwytv_site_something_opens_successfully(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6903886038,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User changes language in welcome screen",
+            "match": {
+              "location": "SampleTestingStepDefs.user_changes_language_in_welcome_screen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7513224908,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on seven days free subscribe now button",
+            "match": {
+              "location": "SampleTestingStepDefs.user_clicks_on_seven_days_free_subscribe_now_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1071600598,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Validate terms and conditions page",
+        "description": "",
+        "id": "verify-sample-tests-for-home-and-login-screen;validate-terms-and-conditions-page",
+        "after": [
+          {
+            "result": {
+              "duration": 163211119,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5141138879,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User clicks on Terms and Conditions link in create your account section",
+            "match": {
+              "location": "SampleTestingStepDefs.user_clicks_on_terms_and_conditions_link_in_create_your_account_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5041905242,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User should see that Terms \u0026 Conditions section is displayed",
+            "match": {
+              "location": "SampleTestingStepDefs.user_should_see_that_terms_conditions_section_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 40,
+            "name": "@toptest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify sample tests for home and login screen",
+    "description": "",
+    "id": "verify-sample-tests-for-home-and-login-screen",
+    "keyword": "Feature",
+    "uri": "sampletesting.feature"
+  }
+]
